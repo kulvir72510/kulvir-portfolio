@@ -5,124 +5,181 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>kulvir-portfolio</title>
   </head>
   <body>
-    <img
-      class="cent"
-      src="media/dp.JPEG"
-      alt="profile-img"
-      style="width: 300px; height: 300px"
-    />
-    <div class="mid">
-      Hello,<br />
-      I am Kulvir
+    <div class="sidenav">
+      <a href="#pro">Projects</a>
+      <a href="#exp">Experience</a>
+      <a href="#connect">Connect</a>
     </div>
-    <div class="mid">
-      <b
-        >I'm a Computer Science and Enginnering Student at Bundelkhand Institute
-        of Engineering and Technology Jhansi.<br />
-        I love coding! <br />My preferred programming language is Java and
-        Python.</b
-      >
-    </div>
-    <hr color="#dcdcdc" />
-    <div class="mid" style="font-size: 45px; margin-top: 2rem">Projects</div>
-    <div class="wrap">
-      <div>
-        <figure class="design">
-          <img
-            src="media/profile.jpg"
-            alt="project-1"
-            width="300px"
-            height="300px"
-          />
-          <figcaption class="mid">Project 1</figcaption>
-        </figure>
-      </div>
-      <div>
-        <figure class="design">
-          <img
-            src="media/profile.jpg"
-            alt="project-1"
-            width="300px"
-            height="300px"
-          />
-          <figcaption class="mid">Project 1</figcaption>
-        </figure>
-      </div>
-    </div>
-    <hr color="#dcdcdc" />
-    <div class="mid" style="font-size: 45px; margin-top: 2rem">
-      Work Experience
-    </div>
-    <div>
+    <button id="drop">...</button>
+    <div class="right">
       <img
         class="cent"
         src="media/dp.JPEG"
-        alt="current-work"
-        style="width: 200px; height: 200px; margin-top: 2rem"
+        alt="profile-img"
+        style="width: 300px; height: 300px"
       />
+      <div class="mid">
+        Hello,<br />
+        I am Kulvir
+      </div>
+      <div class="mid">
+        <b
+          >I'm a Computer Science and Enginnering Student at Bundelkhand
+          Institute of Engineering and Technology Jhansi.<br />
+          I love coding! <br />My preferred programming language is Java and
+          Python.</b
+        >
+      </div>
+      <hr color="#dcdcdc" />
+      <div id="pro" class="mid" style="font-size: 45px; margin-top: 2rem">
+        Projects
+      </div>
+      <div class="wrap">
+        <div>
+          <figure class="design">
+            <img
+              src="media/android.jpg"
+              alt="project-1"
+              width="300px"
+              height="300px"
+            />
+            <figcaption class="caption">
+              <b>An Android App</b> enables car showrooms becoming notebook
+              free. They can use this app to add details and users also can use
+              it. For required car information which is available in that
+              particular showroom
+            </figcaption>
+            <hr color="#dcdcdc" />
+            <b>Java, XML, Firebase</b><br />
+            <div class="top">
+              <span><a href="">Git Hub</a></span>
+            </div>
+          </figure>
+        </div>
+        <div>
+          <figure class="design">
+            <img
+              src="media/django-blog-app.jpg"
+              alt="project-1"
+              width="300px"
+              height="300px"
+            />
+            <figcaption class="caption">
+              <b>A Django App</b> where you can make blogs and can share your
+              story. It is really amzing app for learning Django concepts
+            </figcaption>
+            <hr color="#dcdcdc" />
+            <b>Python, Django, jquery, Css, Html</b><br />
+            <div class="top">
+              <span><a href="">Git Hub</a></span>
+            </div>
+          </figure>
+        </div>
+        <div>
+          <figure class="design">
+            <img
+              src="media/chat-web.jpg"
+              alt="project-1"
+              width="300px"
+              height="300px"
+            />
+            <figcaption class="mid">Project 1</figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure class="design">
+            <img
+              src="media/box-web.jpg"
+              alt="project-1"
+              width="300px"
+              height="300px"
+            />
+            <figcaption class="mid">Project 1</figcaption>
+          </figure>
+        </div>
+      </div>
+      <hr color="#dcdcdc" />
+      <div id="exp" class="mid" style="font-size: 45px; margin-top: 2rem">
+        Work Experience
+      </div>
+      <div>
+        <figure>
+          <img
+            class="cent"
+            src="media/curiousjr-logo.svg"
+            alt="current-work"
+            style="width: 200px; height: 200px; margin-top: 2rem"
+          />
+          <figcaption class="mid">
+            Software Development Intern, Curious Jr
+          </figcaption>
+        </figure>
+      </div>
+      <div style="margin-top: 2rem">
+        <ul>
+          <li>hello</li>
+          <li>
+            Selected as Application Security Champion for 15 Enterprise System
+            Apps to mitigate black duck and security scan issues - 2016 - 2019
+          </li>
+          <li>
+            Developed algorithm to fetch data from multiple UI apps, process
+            user information and route data in specific formats to back end
+            applications and achieved 75% performance improvement through query
+            optimization. C++, SQL, Bootstrap & Angular JS were used and
+            deployed the app on private cloud Gaia successfully with zero
+            defects - Payment Traffic Controller app, 2018
+          </li>
+          <li>
+            Automated entire application using Cucumber and Selenium tools -
+            Core Banking Modernization project, 2016 - 2017
+          </li>
+        </ul>
+      </div>
+      <hr color="#dcdcdc" />
+      <div id="connect" class="mid" style="font-size: 45px; margin-top: 2rem">
+        Connect With Me
+      </div>
+      <div class="beech wrap">
+        <a
+          href="mailto:kulvir72510@gmail.com"
+          rel="noopener norefferer"
+          target="_blank"
+        >
+          <img
+            src="media/email.png"
+            alt="current-work"
+            style="width: 180px; height: 200px"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kulvir-pratap-singh-b8079a1a4"
+          rel="noopener norefferer"
+          target="_blank"
+        >
+          <img
+            src="media/linkedin.png"
+            alt="current-work"
+            style="width: 180px; height: 150px; margin-bottom: 24px"
+          />
+        </a>
+        <a
+          href="https://github.com/kulvir72510"
+          rel="noopener norefferer"
+          target="_blank"
+        >
+          <img
+            src="media/github.png"
+            alt="current-work"
+            style="width: 180px; height: 140px; margin-bottom: 30px"
+          />
+        </a>
+      </div>
     </div>
-    <div style="margin-top: 2rem">
-      <ul>
-        <li>hello</li>
-        <li>
-          Selected as Application Security Champion for 15 Enterprise System
-          Apps to mitigate black duck and security scan issues - 2016 - 2019
-        </li>
-        <li>
-          Developed algorithm to fetch data from multiple UI apps, process user
-          information and route data in specific formats to back end
-          applications and achieved 75% performance improvement through query
-          optimization. C++, SQL, Bootstrap & Angular JS were used and deployed
-          the app on private cloud Gaia successfully with zero defects - Payment
-          Traffic Controller app, 2018
-        </li>
-        <li>
-          Automated entire application using Cucumber and Selenium tools - Core
-          Banking Modernization project, 2016 - 2017
-        </li>
-      </ul>
-    </div>
-    <hr color="#dcdcdc" />
-    <div class="mid" style="font-size: 45px; margin-top: 2rem">
-      Connect With Me
-    </div>
-    <div class="beech wrap">
-      <a
-        href="mailto:kulvir72510@gmail.com"
-        rel="noopener norefferer"
-        target="_blank"
-      >
-        <img
-          src="media/email.png"
-          alt="current-work"
-          style="width: 180px; height: 200px"
-        />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/kulvir-pratap-singh-b8079a1a4"
-        rel="noopener norefferer"
-        target="_blank"
-      >
-        <img
-          src="media/linkedin.png"
-          alt="current-work"
-          style="width: 180px; height: 150px; margin-bottom: 24px"
-        />
-      </a>
-      <a
-        href="https://github.com/kulvir72510"
-        rel="noopener norefferer"
-        target="_blank"
-      >
-        <img
-          src="media/github.png"
-          alt="current-work"
-          style="width: 180px; height: 140px; margin-bottom: 30px"
-        />
-      </a>
-    </div>
+    <script src="index.js"></script>
   </body>
 </html>
